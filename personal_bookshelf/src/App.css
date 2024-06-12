@@ -1,0 +1,206 @@
+.search-box{
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+
+.link-tab{
+  position: absolute;
+  right:0;
+  margin-right: 40px;
+  
+}
+
+.link{
+  display: block;
+  text-decoration: none;
+  background-color: green;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.book-body{
+  margin: 0;
+  background-color: #EADBC8;
+  height: 100vh;
+}
+
+.card-body{
+  display:flex;
+  flex-wrap: wrap;
+   
+}
+
+
+
+
+
+.cards{
+  width: 200px;
+  height: 200px;
+  background-color: #B3C8CF;
+  position: relative;
+  top:50px;
+  border: 1px solid black;
+  box-shadow: 1px 2px 3px #e78898;
+  margin: 15px 0 0 40px;
+  font-size: small;
+  border-radius: 3%;
+
+}
+
+.cards:hover{
+  background-color: rgb(203, 226, 193);
+}
+
+.home-container{
+  background-color: #344955;
+}
+
+.home-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #32012F;
+  margin-top: 0;
+}
+
+.home-header ul{
+  list-style-type: none;
+  
+}
+
+.home-header ul li{
+  display: inline;
+  margin: 20px;
+  position:relative;
+  right:90px;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.btn:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+.logo{
+  width:90px;
+  height: 65px;
+  margin: 5px;
+ 
+  border-radius: 100px;
+}
+
+.body-info{
+  width: 100%;
+  height: 83.8vh;
+}
+
+.quote{
+  font-size: larger;
+  color: white;
+  text-align: center;
+
+}
+
+.quote:hover{
+  color: red;
+}
+
+
+span{
+  color: #FFC96F;
+}
+
+.info{
+  margin: 50px 30px 105px 30px;
+  
+}
+
+p{
+  color: white;
+}
+
+p:hover{
+  color: tomato;
+}
+
+
+
+.footer{
+  width: 100%;
+  text-align: center;
+  background-color: #6295A2;
+}
+
+.icons{
+  color: black;
+  margin:8px;
+}
+
+.icons:hover{
+  color: white;
+  opacity: .7;
+}
+
+.icon1{
+  width: 25px;
+  height:25px;
+}
+
+.books-body{
+  margin: 0;
+  padding: 0;
+  background-color: #538392;
+  width: 100%;  
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+}
+
+.books-body ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clear-btn{
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  font-size: large;
+  width: 70px;
+  border-radius: 20%;
+}
+
+.search-box input{
+  position: relative;
+  left: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.book-btn{
+position: relative;
+left:200px;
+
+
+}
+
+.search-btn{
+  text-decoration: none;
+  position: relative;
+  left:60px;
+ 
+}
